@@ -21,7 +21,6 @@ Step 5. If your Linux box is under attack, perhaps one minute later you'll have 
 
 # Prerequisite
 
-0. '/usr/bin/perl'.
-1. '/sbin/iptables', '/usr/bin/tail' must be accessed by 'root'
-2. '/var/log/secure' log should be in compatible with following PAM line ==> 
+0. '/usr/bin/perl', '/sbin/iptables', '/usr/bin/tail' must be available by 'root'
+1. '/var/log/secure' log should be in compatible with following PAM line ==> 
    "PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=43.229.53.60  user=root"
