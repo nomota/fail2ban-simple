@@ -15,6 +15,9 @@ Step 3. Add 'crontab' entry as follows. Command 'crontab -l' of your 'root' shou
 
 Step 4. Just wait for one minute. That's all.
 
+Step 5. If your Linux box is under attack, perhaps one minute later you'll have some entries.
+    Command '/sbin/iptables -L' shall show what's been detected.
+
 # Prerequisite
 
 1. '/sbin/iptables', '/usr/bin/tail' must be accessed by 'root'
