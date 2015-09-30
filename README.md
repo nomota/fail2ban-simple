@@ -1,4 +1,4 @@
-# fail2ban - the most simplest code
+# fail2ban - the simplest code ever
 A very simple-minded fail2ban code in Perl - ban an IP address if it is detected in /var/log/secure file.
 Just block IP addresses of repeated password failure.
 
