@@ -1,5 +1,6 @@
 # fail2ban - the most simplest code
-A very simple mined fail2ban code in Perl - ban an IP address if it is detected in /var/log/secure file
+A very simple-minded fail2ban code in Perl - ban an IP address if it is detected in /var/log/secure file.
+Just block IP addresses of repeated password failure.
 
 # Installation
 
@@ -20,6 +21,7 @@ Step 5. If your Linux box is under attack, perhaps one minute later you'll have 
 
 # Prerequisite
 
+0. '/usr/bin/perl'.
 1. '/sbin/iptables', '/usr/bin/tail' must be accessed by 'root'
 2. '/var/log/secure' log should be in compatible with following PAM line ==> 
    "PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=43.229.53.60  user=root"
